@@ -6,13 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-     "node": "23.1.0",
+    "node": "23.1.0",
     "start": "node server.js",
-      "server": "nodemon server.js",
-      "client": "npm start --prefix client",
-      "clientinstall": "npm install --prefix client",
-      
-      "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build -- prefix client"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build -- prefix client"
   },
   "dependencies": {
     "axios": "^1.7.7",
@@ -30,6 +29,6 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
-    "vite": "^5.4.1"
+    "vite": "^5.4.11"
   }
 }
